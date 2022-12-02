@@ -1,0 +1,200 @@
+header {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 60px;
+    gap: 286px;
+.nombre{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    
+    width: 500px;
+    height: 24px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #404040;
+    }
+    .links{
+        display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    
+    width: 800px;
+    height: 27.8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #000000;
+    
+    }
+    
+    .hello {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    
+    width: 845px;
+    height: 416px;
+    }
+    
+    h1{
+        width: 845px;
+    height: 327px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 109px;
+    
+    color: #000000;
+    }
+    .subtitle{
+        width: 621px;
+    height: 57px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #000000;
+    }
+    
+    .angelapp {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 64px 32px;
+        gap: 44px;
+        
+        width: 1164px;
+        height: 520.5px;
+        
+        background: rgba(124, 0, 67, 0.4);
+    }
+    
+    .quizflix{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 64px 32px;
+    gap: 44px;
+    
+    width: 1164px;
+    height: 542.5px;
+    
+    background: rgba(238, 214, 2, 0.3);
+    }
+    
+    .e-commerce{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 64px 32px;
+    
+    width: 1164px;
+    height: 521px;
+    
+    background: rgba(0, 181, 138, 0.3);
+    }
+    
+    .about-me{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 58px;
+    gap: 10px;
+    
+    width: 1280px;
+    height: 832px;
+    
+    background: #FFFFFF;
+    }
+    
+    h2{
+        width: 438px;
+        height: 48px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 48px;
+        
+        color: #000000;
+    }
+    
+    p{
+    width: 584px;
+    height: 170px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    
+    }
+    
+    .contact{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    
+    width: 1164px;
+    height: 618px;
+    }
+
+    <form method="POST" action="mailto:ainhoablancoducar@gmail.com">
+                <h2>Let’s create together!</h2>
+                <p>Hey, Ainhoa, I am</p>
+                <input type="text" placeholder="an amazing person">
+                <p>I need a creative designer to help me make my product shine. <br>
+                    My amazing product is so cool I can’t wait to talk to you about it. Here, let me describe it:
+                </p>
+                <input type="text"> <br>
+                <p>
+                    You can get in touch with me at
+                </p>
+                <input type="text" placeholder="amazing@person.cool">
+                <p>
+                    Can’t wait to hear from you!
+                </p>
+                <button type="submit" href="mailto:ainhoablancoducar@gmail.com" style="text-decoration:none"
+                    target="_blank">
+                    Send message</button>
+                <p>You can also contact me at <a href="tel:+34 645644462">645644462</a>
+                    or via e-mail at <a href="mailto:ainhoablancoducar@gmail.com" target="_blank">
+                        ainhoablancoducar@gmail.com </a>
+                </p>
+
+            </form>
