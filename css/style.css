@@ -441,41 +441,61 @@ p {
         object-fit: contain;
         width: 18vw;
     }
-.angelapp {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 64px 32px;
-    gap: 44px;
-    max-width: 1280px;
-    width: 100%;
-    background: rgba(124, 0, 67, 0.4);
-}
-.quizflix {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 64px 32px;
-    gap: 44px;
-    max-width: 1280px;
-    width: 100%;
-    height: 520.5px;
-    background: rgba(238, 214, 2, 0.3);
-}
+    .angelapp {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 64px 32px;
+        gap: 44px;
+        max-width: 1280px;
+        width: 100%;
+        background: rgba(124, 0, 67, 0.4);
+    }
+    .quizflix {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 64px 32px;
+        gap: 44px;
+        max-width: 1280px;
+        width: 100%;
+        height: 520.5px;
+        background: rgba(238, 214, 2, 0.3);
+    }
     .ecommerce {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 64px 32px;
-
-    max-width: 1280px;
-    width: 100%;
-
-    background: rgba(0, 181, 138, 0.3);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 64px 32px;
+    
+        max-width: 1280px;
+        width: 100%;
+    
+        background: rgba(0, 181, 138, 0.3);
+    }
+    #aboutme {
+        background-color: white;
+        padding: 64px 32px;
+        margin: unset;
+        max-width: 1280px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #contact {
+    
+        background-color: white;
+        padding: 0px 32px;
+        max-width: 1280px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
 }
-}
-
 
 @media (max-width: 360px) {
 
@@ -549,28 +569,7 @@ p {
         width: 100%;
         background: rgba(124, 0, 67, 0.4);
     }
-.quizflix {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 64px 32px;
-    gap: 44px;
-    max-width: 1280px;
-    width: 100%;
-    height: 520.5px;
-    background: rgba(238, 214, 2, 0.3);
-}
-    .ecommerce {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 64px 32px;
 
-    max-width: 1280px;
-    width: 100%;
-
-    background: rgba(0, 181, 138, 0.3);
-}
     .textoangelapp {
         margin: unset;
         display: flex;
@@ -581,5 +580,48 @@ p {
         width: 272.5px;
         height: 392.5px;
         margin: unset;
+    }
+   
+    .quizflix {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 64px 32px;
+        gap: 44px;
+        max-width: 1280px;
+        width: 100%;
+        height: 520.5px;
+        background: rgba(238, 214, 2, 0.3);
+    }
+    .ecommerce {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 64px 32px;
+    
+        max-width: 1280px;
+        width: 100%;
+    
+        background: rgba(0, 181, 138, 0.3);
+    }
+    #aboutme {
+        background-color: white;
+        padding: 64px 32px;
+        margin: unset;
+        max-width: 1280px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #contact {
+    
+        background-color: white;
+        padding: 0px 32px;
+        max-width: 1280px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
 }
